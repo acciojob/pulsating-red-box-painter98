@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+body{
+	margin:0;
+}
+div{
+	width:100px;
+	height:100px;
+	background-color:red;
+	animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse{
+	from{
+		width:100px;
+	    height:100px;
+	}
+to{
+		width:110px;
+	    height:110px;
+}
+}
